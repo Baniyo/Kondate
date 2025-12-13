@@ -1,7 +1,7 @@
 import streamlit as st
-import random
-
-st.title("🍽️ らくちん献立アプリ")
+import random;
+st.set_page_config(page_title="楽ちん献立アプリ",layout="wide")
+st.title("🍽️ 楽ちん献立アプリ")
 
 # 表示する料理のリスト
 menus = [
